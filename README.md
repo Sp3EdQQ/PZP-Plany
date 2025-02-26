@@ -1,1 +1,1 @@
-# PZPPlany
+# PZP Plany
