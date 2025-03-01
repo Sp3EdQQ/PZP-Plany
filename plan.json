@@ -1,0 +1,2362 @@
+{
+    "Wydział Budowy Maszyn i Informatyki": {
+        "K11 Matematyki": {
+            "Analiza matematyczna II": [
+                "Adamek Mirosław",
+                "Kotrys Dawid",
+                "Micherda Bartosz"
+            ],
+            "Matematyka II": [
+                "Adamek Mirosław",
+                "Kotrys Dawid",
+                "Zgraja Tomasz"
+            ],
+            "Matematyka inżynierska II": [
+                "Adamek Mirosław",
+                "Śliwińska Dorota",
+                "Wąsowicz Szymon",
+                "Zgraja Tomasz"
+            ],
+            "Metody probabilistyczne i statystyka": [
+                "Adamek Mirosław",
+                "Śliwińska Dorota"
+            ],
+            "Statystyka i probabilistyka": [
+                "Adamek Mirosław",
+                "Micherda Bartosz"
+            ],
+            "Statystyka opisowa": [
+                "Adamek Mirosław",
+                "Śliwińska Dorota"
+            ],
+            "Matematyka": [
+                "Micherda Bartosz",
+                "Śliwińska Dorota",
+                "Zgraja Tomasz"
+            ],
+            "Algorytmy i struktury danych": [
+                "Mrowiec Jacek",
+                "Sadowska-Owczorz Elżbieta",
+                "Śliwińska Dorota"
+            ],
+            "Teoria informacji i kodowanie": [
+                "Mrowiec Jacek"
+            ],
+            "Mathematical analysis (przedmiot obieralny)": [
+                "Śliwińska Dorota",
+                "Wąsowicz Szymon"
+            ],
+            "Metody probablistyczne": [
+                "Śliwińska Dorota",
+                "Wąsowicz Szymon"
+            ],
+            "Analiza macierzowa": [
+                "Wąsowicz Szymon"
+            ],
+            "Discrete Mathematics": [
+                "Zgraja Tomasz"
+            ],
+            "Sesja egzaminacyjna 27.02": [
+                "Zgraja Tomasz"
+            ],
+            "Sesja egzaminacyjna 28.02": [
+                "Zgraja Tomasz"
+            ],
+            "Zaawansowana matematyka": [
+                "Zgraja Tomasz"
+            ]
+        },
+        "K14 Podstaw Budowy Maszyn": {
+            "Programowanie IV": [
+                "Augustynek Krzysztof"
+            ],
+            "Programowanie dla Internetu w technologii ASP.NET": [
+                "Augustynek Krzysztof"
+            ],
+            "Podstawy konstrukcji maszyn": [
+                "Augustynek Krzysztof"
+            ],
+            "Systemy rozproszone": [
+                "Augustynek Krzysztof"
+            ],
+            "Monitoring w przemyśle": [
+                "Bebek Ewa"
+            ],
+            "Programowalne sterowniki PAC": [
+                "Bebek Ewa"
+            ],
+            "Sterowanie sekwencyjne": [
+                "Bebek Ewa"
+            ],
+            "Systemy wizualizacji SCADA": [
+                "Bebek Ewa",
+                "Sidzina Marcin"
+            ],
+            "Układy przełączające": [
+                "Bebek Ewa",
+                "Pawlik Marcin"
+            ],
+            "Inżynierskie metody optymalizacji": [
+                "Danielczyk Piotr"
+            ],
+            "Modelowanie wspomagające projektowanie maszyn": [
+                "Danielczyk Piotr"
+            ],
+            "Podstawy CAD i modelowanie 3D": [
+                "Danielczyk Piotr",
+                "Marszałek Jerzy"
+            ],
+            "Projektowanie generatywne": [
+                "Danielczyk Piotr"
+            ],
+            "Wybrane zagadnienia z konstrukcji maszyn": [
+                "Drewniak Józef"
+            ],
+            "Języki wysokiego poziomu w mechatronice": [
+                "Jabłoński Adam",
+                "Sidzina Marcin"
+            ],
+            "Mechatronika": [
+                "Jabłoński Adam"
+            ],
+            "Podstawy robotyki II": [
+                "Jabłoński Adam",
+                "Kopeć Jerzy"
+            ],
+            "Drgania mechaniczne": [
+                "Janusz Jarosław",
+                "Trąbka Arkadiusz"
+            ],
+            "Podstawy automatyki i robotyki": [
+                "Janusz Jarosław",
+                "Pawlik Marcin"
+            ],
+            "Podstawy teorii sygnałów i systemów": [
+                "Janusz Jarosław",
+                "Pawlik Marcin"
+            ],
+            "Metaloznawstwo II": [
+                "Jędrzejczyk Dariusz",
+                "Rajzer Izabella"
+            ],
+            "Nauka o materiałach I": [
+                "Jędrzejczyk Dariusz",
+                "Rajzer Izabella"
+            ],
+            "Przemysł 4.0": [
+                "Jędrzejczyk Dariusz"
+            ],
+            "Współczesne materiały inżynierskie": [
+                "Jędrzejczyk Dariusz"
+            ],
+            "Mechanika płynów": [
+                "Klecki Ryszard",
+                "Kopeć Jerzy",
+                "Śliwka Mateusz"
+            ],
+            "Podstawy konstrukcji maszyn II": [
+                "Klecki Ryszard",
+                "Praszkiewicz Marek"
+            ],
+            "Mechanika płynów I": [
+                "Kopeć Jerzy"
+            ],
+            "Sieci neuronowe w automatyce": [
+                "Kopeć Jerzy"
+            ],
+            "Urządzenia pneumatyczne i hydrauliczne": [
+                "Kopeć Jerzy"
+            ],
+            "Wytrzymałość materiałów I": [
+                "Kopeć Jerzy",
+                "Pawlus Dorota"
+            ],
+            "Seminarium dyplomowe I": [
+                "Kłosiński Jacek"
+            ],
+            "Seminarium dyplomowe II": [
+                "Kłosiński Jacek",
+                "Wróbel Ireneusz"
+            ],
+            "Sterowanie procesami ciągłymi": [
+                "Kłosiński Jacek"
+            ],
+            "Wybrane zagadnienia teorii sterowania": [
+                "Kłosiński Jacek"
+            ],
+            "Algorytmy optymalizacji": [
+                "Marszałek Jerzy"
+            ],
+            "Badania operacyjne i optymalizacja": [
+                "Marszałek Jerzy"
+            ],
+            "Podstawy sterowania optymalnego": [
+                "Marszałek Jerzy"
+            ],
+            "Wspomaganie decyzji w praktyce inżynierskiej": [
+                "Marszałek Jerzy"
+            ],
+            "Komputerowe wspomaganie syntezy układów automatyki": [
+                "Pawlik Marcin"
+            ],
+            "Robotyzacja stanowisk mechatronicznych": [
+                "Pawlik Marcin",
+                "Sidzina Marcin"
+            ],
+            "Systemy czasu rzeczywistego": [
+                "Pawlik Marcin",
+                "Sidzina Marcin"
+            ],
+            "Symulacja procesów zrobotyzowanych": [
+                "Pawlik Marcin",
+                "Sidzina Marcin"
+            ],
+            "Sesja poprawkowa 27.02": [
+                "Pawlus Dorota"
+            ],
+            "Wytrzymałość kompozytów i teoria sprężystości": [
+                "Pawlus Dorota"
+            ],
+            "Grafika inżynierska II (Rysunek techniczny)": [
+                "Praszkiewicz Marek",
+                "Rysiński Jacek"
+            ],
+            "Podstawy konstrukcji maszyn I": [
+                "Praszkiewicz Marek"
+            ],
+            "Materiały i tworzywa sztuczne w budowie pojazdów": [
+                "Rajzer Izabella"
+            ],
+            "Praca przejściowa": [
+                "Rysiński Jacek",
+                "Sidzina Marcin",
+                "Wróbel Ireneusz"
+            ],
+            "Projektowanie elementów automatyki": [
+                "Sidzina Marcin"
+            ],
+            "Materiałoznawstwo": [
+                "Skotnicki Wojciech"
+            ],
+            "Podstawy systemów operacyjnych": [
+                "Skotnicki Wojciech"
+            ],
+            "Wytrzymałość materiałów II": [
+                "Śliwka Mateusz"
+            ],
+            "Wytrzymałość materiałów III": [
+                "Śliwka Mateusz"
+            ],
+            "Elementy sterowania i robotyki": [
+                "Trąbka Arkadiusz"
+            ],
+            "Identyfikacja procesów automatyki": [
+                "Trąbka Arkadiusz"
+            ],
+            "Języki programowania robotów": [
+                "Trąbka Arkadiusz"
+            ],
+            "Napędy i programowanie robotów": [
+                "Trąbka Arkadiusz"
+            ],
+            "Teoria maszyn i mechanizmów": [
+                "Trąbka Arkadiusz"
+            ],
+            "Dynamika maszyn": [
+                "Urbaś Andrzej"
+            ],
+            "Dynamika robotów": [
+                "Urbaś Andrzej"
+            ],
+            "Mechanika budowli 2": [
+                "Urbaś Andrzej"
+            ],
+            "Modelowanie komputerowe układów mechatronicznych": [
+                "Urbaś Andrzej"
+            ],
+            "Zastosowanie technik komputerowych w mechanice": [
+                "Urbaś Andrzej"
+            ],
+            "Konsultacje (L)": [
+                "Wróbel Ireneusz"
+            ],
+            "Laboratorium komputerowego wspomagania konstruowania": [
+                "Wróbel Ireneusz"
+            ],
+            "Podstawy CAD": [
+                "Wróbel Ireneusz"
+            ]
+        },
+        "K15 Silników Spalinowych i Pojazdów": {
+            "Badania i diagnostyka pojazdów": [
+                "Brzozowski Michał",
+                "Wnęk Henryk"
+            ],
+            "Badania i diagnostyka silników": [
+                "Cieślar Kacper",
+                "Knefel Tomasz",
+                "Pietras Dariusz"
+            ],
+            "Budowa i eksploatacja pojazdów I": [
+                "Cieślar Kacper",
+                "Parczewski Krzysztof"
+            ],
+            "Eksploatacja i technologia napraw maszyn": [
+                "Cieślar Kacper",
+                "Knefel Tomasz",
+                "Parczewski Krzysztof"
+            ],
+            "Statystyka medyczna": [
+                "Cieślar Kacper",
+                "Sikora Krzysztof"
+            ],
+            "Systemy pomiarowe": [
+                "Cieślar Kacper",
+                "Nowakowski Jacek",
+                "Parczewski Krzysztof",
+                "Wnęk Henryk"
+            ],
+            "Mechanika analityczna": [
+                "Harlecki Andrzej"
+            ],
+            "Mechanika techniczna II": [
+                "Harlecki Andrzej",
+                "Kubas Krzysztof"
+            ],
+            "Podstawy dynamiki maszyn": [
+                "Harlecki Andrzej"
+            ],
+            "Podstawy mechaniki II": [
+                "Harlecki Andrzej",
+                "Kubas Krzysztof"
+            ],
+            "Sesja poprawkowa 27.02": [
+                "Harlecki Andrzej"
+            ],
+            "Teoria sprężystości i plastyczności": [
+                "Harlecki Andrzej"
+            ],
+            "Ochrona własności intelektualnych": [
+                "Knefel Tomasz"
+            ],
+            "Technologie proekologiczne": [
+                "Knefel Tomasz"
+            ],
+            "Wybrane zagadnienia z ochrony własności intelektualnych": [
+                "Knefel Tomasz"
+            ],
+            "Zasilanie i osprzęt silników": [
+                "Knefel Tomasz"
+            ],
+            "Metody numeryczne": [
+                "Kubas Krzysztof"
+            ],
+            "Podstawy programowania": [
+                "Kubas Krzysztof"
+            ],
+            "Budowa i eksploatacja silników I": [
+                "Nowakowski Jacek"
+            ],
+            "Seminarium dyplomowe I": [
+                "Nowakowski Jacek"
+            ],
+            "Procesy montażu w przemyśle motoryzacyjnym": [
+                "Parczewski Krzysztof"
+            ],
+            "Podstawy rekonstrukcji wypadków drogowych": [
+                "Parczewski Krzysztof"
+            ],
+            "Ekologia i recykling pojazdów": [
+                "Pietras Dariusz"
+            ],
+            "Zarządzanie środowiskiem i ekologia": [
+                "Pietras Dariusz"
+            ],
+            "Podstawy architektury komputerów": [
+                "Sikora Krzysztof"
+            ],
+            "Termodynamika techniczna": [
+                "Sikora Krzysztof"
+            ],
+            "Termodynamika I": [
+                "Sucheta Andrzej"
+            ],
+            "Termodynamika i termokinetyka": [
+                "Sucheta Andrzej"
+            ],
+            "Transport masy i energii": [
+                "Sucheta Andrzej"
+            ],
+            "Termodynamika techniczna I": [
+                "Sucheta Andrzej"
+            ],
+            "Wymagania homologacyjne w budowie pojazdów": [
+                "Wnęk Henryk"
+            ]
+        },
+        "K16 Technologii Maszyn i Automatyzacji": {
+            "Metrologia": [
+                "SL19 Laboratorium Metrologii",
+                "Hura Izabela"
+            ],
+            "Metrologia techniczna I": [
+                "SL19 Laboratorium Metrologii"
+            ],
+            "Podstawy metrologii (Metrol. wielk. geom. / Metrol. tech. / Metrol.elek.)": [
+                "SL19 Laboratorium Metrologii",
+                "Hura Izabela"
+            ],
+            "Współrzędnościowa technika pomiarowa": [
+                "SL19 Laboratorium Metrologii"
+            ],
+            "Komputerowe projektowanie zrobotyzowanych stanowisk pracy": [
+                "Błaszczak Paweł"
+            ],
+            "Komputerowe projektowanie zrobotyzowanych stanowisk pracy I": [
+                "Błaszczak Paweł"
+            ],
+            "Programowanie robotów": [
+                "Błaszczak Paweł"
+            ],
+            "Rozpoznawanie obrazów i systemy ekspertowe": [
+                "Błaszczak Paweł"
+            ],
+            "Roboty w wytwarzaniu maszyn": [
+                "Błaszczak Paweł"
+            ],
+            "Systemy wizyjne w wytwarzaniu": [
+                "Błaszczak Paweł"
+            ],
+            "Obróbka ubytkowa": [
+                "Hura Izabela",
+                "Pezda Jacek"
+            ],
+            "Odlewnictwo": [
+                "Jarco Aleksandra",
+                "Pezda Jacek"
+            ],
+            "Odlewnictwo i obróbka plastyczna": [
+                "Jarco Aleksandra",
+                "Pezda Jacek"
+            ],
+            "Techniki wytwarzania I": [
+                "Jarco Aleksandra",
+                "Pezda Jacek"
+            ],
+            "Bezpieczeństwo i jakość w procesach wytwórczych": [
+                "Pezda Jacek"
+            ],
+            "Obróbka plastyczna": [
+                "Pezda Jacek"
+            ],
+            "Praca przejściowa": [
+                "Pezda Jacek"
+            ],
+            "Seminarium dyplomowe I": [
+                "Pezda Jacek"
+            ],
+            "Technologie spajania": [
+                "Pezda Jacek"
+            ],
+            "Projektowanie elastycznych systemów produkcyjnych": [
+                "Stryczek Roman",
+                "Wyrobek Kamil"
+            ],
+            "Projektowanie procesów obróbki i montażu": [
+                "Stryczek Roman"
+            ],
+            "Obrabiarki sterowane numerycznie": [
+                "Wyrobek Kamil"
+            ],
+            "Projektowanie generatywne": [
+                "Wyrobek Kamil"
+            ],
+            "Programowanie obrabiarek sterowanych numerycznie": [
+                "Wyrobek Kamil"
+            ],
+            "Systemy CAM": [
+                "Wyrobek Kamil"
+            ],
+            "Niekonwencjonalne metody wytwarzania": [
+                "Zyzak Piotr"
+            ],
+            "Projektowanie procesów obróbki": [
+                "Zyzak Piotr"
+            ],
+            "Zarządzanie przedsiębiorstwem": [
+                "Zyzak Piotr"
+            ],
+            "Zintegrowane systemy wytwarzania": [
+                "Zyzak Piotr"
+            ]
+        },
+        "K17 Inżynierii Produkcji": {
+            "Kreatywność pracowników i twórcze zespoły": [
+                "Baron-Puda Maria",
+                "Radwan Katarzyna"
+            ],
+            "Ocena kompetencji pracowniczych": [
+                "Baron-Puda Maria"
+            ],
+            "Pedagogika pracy": [
+                "Baron-Puda Maria"
+            ],
+            "Praca przejściowa": [
+                "Baron-Puda Maria",
+                "Golińska Ewa",
+                "Kaczmar-Kolny Ewa",
+                "Kolny Damian",
+                "Kukla Sławomir",
+                "Matuszny Marcin",
+                "Moczała Aleksander",
+                "Radwan Katarzyna"
+            ],
+            "Projektowanie systemów pracy I": [
+                "Baron-Puda Maria"
+            ],
+            "Zarządzanie systemami pracy": [
+                "Baron-Puda Maria"
+            ],
+            "BHP i ergonomia": [
+                "Drobina Robert"
+            ],
+            "Ergonomia": [
+                "Drobina Robert"
+            ],
+            "Zarządzanie bezpieczeństwem pracy": [
+                "Drobina Robert"
+            ],
+            "Zarządzanie środowiskowe": [
+                "Drobina Robert"
+            ],
+            "Organizacja systemów produkcyjnych": [
+                "Dulina Luboslav",
+                "Radwan Katarzyna"
+            ],
+            "Production Engineering (przedmiot prowadzony w języku angielskim)": [
+                "Dulina Luboslav"
+            ],
+            "Zarządzanie jakością i bezpieczeństwem I": [
+                "Golińska Ewa"
+            ],
+            "Zarządzanie jakością i bezpieczeństwem III": [
+                "Golińska Ewa"
+            ],
+            "Grafika inżynierska (komputerowa) II": [
+                "Herma Sławomir",
+                "Kukla Sławomir"
+            ],
+            "Informatyka i komputerowe wspomaganie prac inżynierskich I": [
+                "Herma Sławomir"
+            ],
+            "Systemy wspomagania decyzji i zarządzania wiedzą": [
+                "Herma Sławomir"
+            ],
+            "Zajęcia z AutoCad-a dla uczniów liceum S. Herma 6.03-12.06": [
+                "Herma Sławomir"
+            ],
+            "Finanse i rachunkowość I": [
+                "Kaczmar-Kolny Ewa",
+                "Więcek Dorota"
+            ],
+            "Podstawy rachunkowości": [
+                "Kaczmar-Kolny Ewa",
+                "Więcek Dorota"
+            ],
+            "Zarządzanie produkcją i usługami II": [
+                "Kaczmar-Kolny Ewa",
+                "Plinta Dariusz"
+            ],
+            "Gospodarka magazynowa": [
+                "Kolny Damian",
+                "Więcek Dariusz"
+            ],
+            "Metody i techniki twórczego myślenia": [
+                "Kolny Damian"
+            ],
+            "Projektowanie zakładów przemysłowych": [
+                "Kolny Damian",
+                "Plinta Dariusz"
+            ],
+            "Spotkanie Koła Naukowego VIP": [
+                "Kolny Damian"
+            ],
+            "Informatyka i komputerowe wspomaganie prac inżynierskich III": [
+                "Kukla Sławomir"
+            ],
+            "Procesy produkcyjne": [
+                "Kukla Sławomir",
+                "Moczała Aleksander"
+            ],
+            "Zarządzanie projektami innowacyjnymi II": [
+                "Kukla Sławomir"
+            ],
+            "Tendencje rozwoju systemów produkcji I": [
+                "Kuric Ivan"
+            ],
+            "Komunikacja społeczna i aktywizacja zawodowa": [
+                "Kutschenreiter-Praszkiewicz Izabela"
+            ],
+            "Marketing": [
+                "Kutschenreiter-Praszkiewicz Izabela",
+                "Matuszny Marcin"
+            ],
+            "Zarządzanie strategiczne": [
+                "Kutschenreiter-Praszkiewicz Izabela"
+            ],
+            "Rachunek kosztów dla inżynierów": [
+                "Matuszek Józef",
+                "Więcek Dorota"
+            ],
+            "Komputerowe wspomaganie produkcji": [
+                "Mleczko Janusz"
+            ],
+            "Zintegrowane systemy zarządzania I": [
+                "Mleczko Janusz"
+            ],
+            "Management of Technology and Innovation": [
+                "Moczała Aleksander"
+            ],
+            "Projektowanie systemów produkcyjnych": [
+                "Moczała Aleksander"
+            ],
+            "Tendencje rozwoju systemów produkcji II": [
+                "Moczała Aleksander"
+            ],
+            "Zarządzanie projektami innowacyjnymi I": [
+                "Moczała Aleksander",
+                "Radwan Katarzyna"
+            ],
+            "Zarządzanie projektem i innowacjami": [
+                "Moczała Aleksander",
+                "Radwan Katarzyna"
+            ],
+            "Prognozowanie i symulacja w przedsiębiorstwie I": [
+                "Plinta Dariusz"
+            ],
+            "Seminarium dyplomowe I": [
+                "Plinta Dariusz"
+            ],
+            "Komputerowe wspomaganie projektowania systemów produkcyjnych": [
+                "Więcek Dariusz"
+            ],
+            "Podstawy projektowania inżynierskiego I": [
+                "Więcek Dariusz"
+            ],
+            "Zarządzanie procesami w przedsiębiorstwie": [
+                "Więcek Dariusz"
+            ],
+            "Zarządzanie przedsiębiorstwem produkcyjnym": [
+                "Więcek Dorota"
+            ]
+        },
+        "K18 Informatyki i Automatyki": {
+            "Inteligentne przetwarzanie multimediów": [
+                "Bernaś Marcin"
+            ],
+            "Inteligentny transport i pojazdy autonomiczne": [
+                "Bernaś Marcin"
+            ],
+            "Interfejs w aplikacjach internetowych": [
+                "Bernaś Marcin",
+                "Giertuga Patryk",
+                "Soszka Piotr"
+            ],
+            "Podstawy tworzenia gier": [
+                "Bernaś Marcin"
+            ],
+            "Spotkanie Sekcji Gamedev": [
+                "Bernaś Marcin"
+            ],
+            "Zaawansowana grafika i gry komputerowe": [
+                "Bernaś Marcin"
+            ],
+            "Nierelacyjne bazy danych": [
+                "Fałat Paweł",
+                "Soszka Piotr",
+                "Veselska Olga"
+            ],
+            "Programowanie II": [
+                "Fałat Paweł",
+                "Grygiel Mikołaj",
+                "Shevchuk Ruslan",
+                "Soszka Piotr",
+                "Wieczorek Wojciech"
+            ],
+            "Programowanie IV": [
+                "Fałat Paweł",
+                "Wieczorek Wojciech",
+                "Zając Tomasz"
+            ],
+            "Programowanie dla Internetu w technologii ASP.NET": [
+                "Fałat Paweł",
+                "Tengler Szymon"
+            ],
+            "Bezpieczeństwo systemów serwerowych": [
+                "Gancarczyk Tomasz"
+            ],
+            "Systemy operacyjne I": [
+                "Gancarczyk Tomasz"
+            ],
+            "Metody sztucznej inteligencji": [
+                "Giertuga Patryk",
+                "Kordos Mirosław",
+                "Soszka Piotr"
+            ],
+            "Projektowanie rozwiązań internetowych": [
+                "Giertuga Patryk",
+                "Grygiel Mikołaj"
+            ],
+            "Projekt": [
+                "Grygiel Maksymilian",
+                "Hamera Łukasz",
+                "Zając Tomasz"
+            ],
+            "Techniki testowania aplikacji": [
+                "Grygiel Maksymilian"
+            ],
+            "Grafika komputerowa": [
+                "Grygiel Mikołaj",
+                "Martsenyuk Vasyl"
+            ],
+            "Podstawy elektrotechniki i elektroniki": [
+                "Jancarczyk Daniel",
+                "Masny Andrzej"
+            ],
+            "Programowanie mikrokontrolerów": [
+                "Jancarczyk Daniel",
+                "Pytka Damian"
+            ],
+            "Podstawy napędu elektrycznego": [
+                "Jancarczyk Daniel",
+                "Patyk Aleksander"
+            ],
+            "Sterowanie elektrycznymi układami napędowymi": [
+                "Jancarczyk Daniel"
+            ],
+            "Technika cyfrowa i mikroprocesorowa": [
+                "Kajstura Krzysztof"
+            ],
+            "Advanced Programming Techniques": [
+                "Kordos Mirosław"
+            ],
+            "Programming in C# (Programming III)": [
+                "Kordos Mirosław"
+            ],
+            "Zaawansowane techniki programowania": [
+                "Kordos Mirosław"
+            ],
+            "Elektrotechnika i elektronika": [
+                "Kłos-Witkowska Aleksandra"
+            ],
+            "Fizyka": [
+                "Kłos-Witkowska Aleksandra"
+            ],
+            "Podstawy informatyki": [
+                "Kłos-Witkowska Aleksandra"
+            ],
+            "Cyfrowe przetwarzanie sygnałów I": [
+                "Martsenyuk Vasyl"
+            ],
+            "Digital signal processing (przedmiot prowadzony w j. angielskim: Przetwarzanie sygnałów cyfrowych)": [
+                "Martsenyuk Vasyl"
+            ],
+            "Graphics and Computer Games I": [
+                "Martsenyuk Vasyl"
+            ],
+            "Matematyka konkretna": [
+                "Martsenyuk Vasyl"
+            ],
+            "Nauka o danych II": [
+                "Martsenyuk Vasyl"
+            ],
+            "Uczenie maszynowe": [
+                "Martsenyuk Vasyl"
+            ],
+            "Elektronika": [
+                "Masny Andrzej",
+                "Pytka Damian"
+            ],
+            "Nauka o danych I": [
+                "Nikodem Joanna"
+            ],
+            "Przekształtniki energoelektroniczne": [
+                "Patyk Aleksander"
+            ],
+            "Bezpieczeństwo sieci Web": [
+                "Shevchuk Ruslan"
+            ],
+            "Technologie Blockchain": [
+                "Shevchuk Ruslan"
+            ],
+            "Teletransmisja II": [
+                "Shevchuk Ruslan"
+            ],
+            "Nieralacyjne bazy danych": [
+                "Soszka Piotr"
+            ],
+            "Tworzenie oprogramowania dla systemów chmurowych": [
+                "Tengler Szymon"
+            ],
+            "Bezpieczeństwo technologii mobilnych": [
+                "Veselska Olga"
+            ],
+            "Projektowanie i obsługa sieci komputerowych II": [
+                "Veselska Olga"
+            ],
+            "Radiokomunikacja II": [
+                "Veselska Olga"
+            ],
+            "Sieci komputerowe": [
+                "Veselska Olga",
+                "Ziubina Ruslana"
+            ],
+            "Matematyka dyskretna II": [
+                "Wieczorek Wojciech"
+            ],
+            "Optymalizacja kombinatoryczna": [
+                "Wieczorek Wojciech"
+            ],
+            "Rozszerzony Internet rzeczy": [
+                "Więcław Łukasz"
+            ],
+            "Seminarium dyplomowe I": [
+                "Więcław Łukasz",
+                "Zawiślak Stanisław"
+            ],
+            "Wprowadzenie do UX Design": [
+                "Więcław Łukasz"
+            ],
+            "Wzorce projektowe": [
+                "Więcław Łukasz"
+            ],
+            "Zarządzania projektem": [
+                "Więcław Łukasz"
+            ],
+            "Zarządzanie projektem": [
+                "Więcław Łukasz"
+            ],
+            "Matematyka dyskretna": [
+                "Zawiślak Stanisław"
+            ],
+            "Seminarium dyplomowe II": [
+                "Zawiślak Stanisław"
+            ],
+            "Linie i systemy światłowodowe I": [
+                "Ziubina Ruslana"
+            ]
+        }
+    },
+    "Wydział Humanistyczno-Społeczny": {
+        "I45 Pedagogiki": {
+            "Komunikacja AAC/ Wspomagające i alternatywne metody komunikacji": [
+                "Borzęcka Anna"
+            ],
+            "Metodyka zajęć korekcyjno-kompensacyjnych dla dzieci z niepełnosprawością intelektualną/ Praca korekcyjno-kompensacyjna z dziećmi z niepełnosprawością intelektualną": [
+                "Borzęcka Anna"
+            ],
+            "Metodyka zajęć korekcyjno-kompensacyjnych dla dzieci z niepełnosprawnością sprzężoną/Praca korekcyjno-kompensacyjna z dzieckiem z niepełnosprawnością sprzężoną": [
+                "Borzęcka Anna"
+            ],
+            "Wspieranie rozwoju dziecka z niepełnosprawnością intelektualną/Praca z dzieckiem z niepelnosprawnością intelektualną": [
+                "Borzęcka Anna"
+            ],
+            "Psychologia osobowości": [
+                "Chmiel Andrzej"
+            ],
+            "Psychologia rozwojowa": [
+                "Chmiel Andrzej"
+            ],
+            "Psychologia rozwojowa i osobowości": [
+                "Chmiel Andrzej",
+                "Lizurej-Hanula Alicja"
+            ],
+            "Psychologia uczenia się i nauczania/Psychologia kształcenia": [
+                "Chmiel Andrzej"
+            ],
+            "Psychologia wychowawcza i społeczna": [
+                "Chmiel Andrzej"
+            ],
+            "Metodyka pracy i współpracy z rodziną oraz prawnymi opiekunami dziecka/ Współpraca pedagoga ze środowiskiem": [
+                "Galocz Adriana"
+            ],
+            "Metodyka pracy pedagoga szkolnego": [
+                "Galocz Adriana",
+                "Machaczek Gabriela"
+            ],
+            "Metodyka zajęć pozalekcyjnych i pozaszkolnych": [
+                "Galocz Adriana"
+            ],
+            "Pedagogika dziecka ze specjalnymi potrzebami edukacyjnymi/Praca z dzieckiem ze specjalnymi potrzebami edukacyjnymi": [
+                "Galocz Adriana"
+            ],
+            "Diagnoza trudności w uczeniu się i zaburzeń zachowania u dzieci/Diagnoza niepowodzeń szkolnych": [
+                "Gumińska Natalia",
+                "Kantyka-Dziwisz Karolina",
+                "Machaczek Gabriela"
+            ],
+            "Metodyka zajęć korekcyjno-kompensacyjnych": [
+                "Gumińska Natalia",
+                "Kantyka-Dziwisz Karolina"
+            ],
+            "Metodyka pedagogiki przedszkolnej": [
+                "Kantyka-Dziwisz Karolina",
+                "Twaróg-Kanus Agnieszka"
+            ],
+            "Wybrane modele i koncepcje pedagogiki wczesnoszkolnej/Tendencje i kierunki zmian we współczesnej pedagogice wczesnoszkolnej": [
+                "Kantyka-Dziwisz Karolina",
+                "Kochanowska Ewa"
+            ],
+            "Dydaktyka ogólna": [
+                "Kochanowska Ewa",
+                "Kojs Rafał",
+                "Michalkiewicz-Gorol Agnieszka"
+            ],
+            "Metodologia badań pedagogicznych/Praca badawcza nauczyciela": [
+                "Kochanowska Ewa"
+            ],
+            "Seminarium dyplomowe": [
+                "Kochanowska Ewa",
+                "Kujan Patryk",
+                "Michalkiewicz-Gorol Agnieszka",
+                "Modrzejewska Justyna",
+                "Nowak Zbigniew",
+                "Wojciechowska Justyna"
+            ],
+            "Metodyka pedagogiki wczesnoszkolnej": [
+                "Kojs Rafał",
+                "Pawlak Justyna"
+            ],
+            "Metodyka pracy resocjalizacyjnej": [
+                "Kujan Patryk"
+            ],
+            "Profilaktyka społeczna i interwencja kryzysowa": [
+                "Kujan Patryk"
+            ],
+            "Patologie społeczne/zaburzenia zachowań społecznych": [
+                "Kujan Patryk"
+            ],
+            "Praca z dzieckiem z deficytami rozwojowymi": [
+                "Lizurej-Hanula Alicja"
+            ],
+            "Wprowadzenie do diagnozy psychopedagogicznej/Elementy psychopedagogicznego postępowania diagnostycznego": [
+                "Lizurej-Hanula Alicja"
+            ],
+            "Pojęcia i systemy pedagogiczne": [
+                "Lorenc Joanna",
+                "Michalkiewicz-Gorol Agnieszka",
+                "Miczka-Pajestka Monika"
+            ],
+            "Terapia pedagogiczna/Oddziaływania terapeutyczne wobec dziecka w wieku przedszkolnym i wczesnoszkolnym": [
+                "Lorenc Joanna"
+            ],
+            "Pedeutologia/Problemy kształcenia": [
+                "Machaczek Gabriela"
+            ],
+            "Pomoc ofiarom przemocy w rodzinie/Formy przemocy w rodzinie": [
+                "Machaczek Gabriela"
+            ],
+            "Podstawy psychopedagogiki twórczości i trening kreatywnego myślenia": [
+                "Machaczek Gabriela"
+            ],
+            "Wspieranie rozwoju dziecka z zaburzeniami zachowania/Praca pedagogiczna z dzieckiem z zaburzeniami zachowania": [
+                "Machaczek Gabriela"
+            ],
+            "Diagnoza pedagogiczna w edukacji elementarnej": [
+                "Machnio Dominika"
+            ],
+            "Metoda projektu we wczesnej edukacji/Praca metodą projektu we wczesnej edukacji": [
+                "Machnio Dominika"
+            ],
+            "Organizacja procesu terapeutycznego/ Podstawy pracy terapeutycznej": [
+                "Machnio Dominika"
+            ],
+            "Podstawy edukacji technicznej": [
+                "Machnio Dominika"
+            ],
+            "Wspieranie rozwoju dziecka zdolnego/Praca pedagogiczna z dzieckiem zdolnym": [
+                "Machnio Dominika"
+            ],
+            "Emisja i higiena głosu": [
+                "Majzner Rafał"
+            ],
+            "Metodyka edukacji muzycznej": [
+                "Majzner Rafał"
+            ],
+            "Metodyka edukacji informatycznej i posługiwania się technologią informacyjno-komunikacyjną": [
+                "Maksim-Dąbrowska Klaudia"
+            ],
+            "Etyka w pracy pedagogicznej/Etyka zawodu nauczyciela": [
+                "Miczka-Pajestka Monika"
+            ],
+            "Etyka zawodu nauczyciela/Etyka w pracy pedagogicznej": [
+                "Miczka-Pajestka Monika"
+            ],
+            "Filozofia wychowania": [
+                "Miczka-Pajestka Monika"
+            ],
+            "Metodyka edukacji zdrowotnej": [
+                "Modrzejewska Justyna"
+            ],
+            "Metodyka pracy z uczniem zdolnym i uzdolnionym/ Praca z z uczniem zdolnym i uzdolnionym": [
+                "Mrówka Katarzyna"
+            ],
+            "Metodyka zajęć dydaktyczno-wyrównawczych dla dzieci z trudnościami w nauce czytania i pisania/Praca dydaktyczno-wyrównawcza z dzieckiem z trudnościami w nauce czytania i pisania": [
+                "Mrówka Katarzyna"
+            ],
+            "Zajęcia integracyjne w przedszkolu i klasach I-III/Gry i zabawy integracyjne we wczesnej edukacji": [
+                "Mrówka Katarzyna"
+            ],
+            "Metodyka edukacji matematycznej": [
+                "Nowak Zbigniew"
+            ],
+            "Pedagogika ogólna": [
+                "Nowak Zbigniew"
+            ],
+            "Podstawy edukacji polonistycznej": [
+                "Pawlak Justyna",
+                "Wojciechowska Justyna"
+            ],
+            "Podstawy edukacji społeczno-przyrodniczej": [
+                "Pawlak Justyna"
+            ],
+            "Socjologia kultury": [
+                "Przybyła-Dumin Agnieszka"
+            ],
+            "Socjologia wychowania": [
+                "Przybyła-Dumin Agnieszka"
+            ],
+            "Psychologia kliniczna": [
+                "Roszkowska Agnieszka"
+            ],
+            "Podstawy psychologii": [
+                "Roszkowska Agnieszka"
+            ],
+            "Psychopatologia wieku dziecięcego": [
+                "Roszkowska Agnieszka"
+            ],
+            "Arteterapia w pracy z małym dzieckiem/Sztuka w terapii": [
+                "Samulak Liliana"
+            ],
+            "Plastyka w pracy resocjalizacyjnej/Terapia przez sztukę w pracy resocjalizacyjnej": [
+                "Samulak Liliana"
+            ],
+            "Tutoring we wczesnej edukacji": [
+                "Twaróg-Kanus Agnieszka"
+            ],
+            "Wybrane modele i koncepcje pedagogiki przedszkolnej/Tendencje i kierunki zmian we współczesnej pedagogice przedszkolnej": [
+                "Twaróg-Kanus Agnieszka"
+            ],
+            "Wspieranie rozwoju dziecka z zaburzeniami percepcji słuchowej/Praca z dzieckiem z zaburzeniami percepcji słuchowej": [
+                "Twaróg-Kanus Agnieszka"
+            ],
+            "Kryminologia": [
+                "Waluś Roman"
+            ],
+            "Prawne postępowanie w sprawach nieletnich": [
+                "Waluś Roman"
+            ],
+            "Teoretyczne podstawy wychowania": [
+                "Waluś Roman"
+            ],
+            "Drama we wczesnej edukacji/Gry i zabawy parateatralne we wczesnej edukacji": [
+                "Wojciechowska Justyna"
+            ],
+            "Kultura języka": [
+                "Wojciechowska Justyna"
+            ],
+            "Metody badań pedagogicznych/Praca badawcza w pracy resocjalizacyjnej": [
+                "Zawada Anna"
+            ],
+            "Metodyka edukacji plastycznej": [
+                "Zawada Ernest"
+            ],
+            "Struktury wizualne / Podstawy rysunku": [
+                "Zawada Ernest"
+            ],
+            "zajęcia sekcji malarskiej (2x w miesiącu) 4.10.2024-28.02.2025": [
+                "Zawada Ernest"
+            ]
+        },
+        "I49 Neofilologii": {
+            "Historia literatury hiszpańskiej": [
+                "Brenet Tomasz"
+            ],
+            "Przekład konferencyjny": [
+                "Brenet Tomasz"
+            ],
+            "Praktyczna nauka języka angielskiego": [
+                "Brenet Tomasz",
+                "Gardaś Arkadiusz",
+                "Jarczok Anita",
+                "Raułyk-Dumanow Małgorzata"
+            ],
+            "Tłumaczenie ustne": [
+                "Brenet Tomasz"
+            ],
+            "Gramatyka opisowa języka angielskiego": [
+                "Chłopek Dorota"
+            ],
+            "Praktyczna znajomość języka hiszpańskiego- ekspresja ustna": [
+                "Cieślar-Śliż Ilona"
+            ],
+            "Praktyczna znajomość języka hiszpańskiego": [
+                "Cieślar-Śliż Ilona",
+                "Hasior Aleksandra",
+                "Kasperek Dominika",
+                "Palion-Musioł Agnieszka",
+                "Vidal Jaume",
+                "Worek Katarzyna"
+            ],
+            "Spotkanie w sprawie praktyk studenckich NZ 02.03": [
+                "Cieślar-Śliż Ilona"
+            ],
+            "Interpretacja i analiza tekstów literackich": [
+                "Dimeo Álvarez Carlos"
+            ],
+            "Konwersatorium dyplomowe": [
+                "Dimeo Álvarez Carlos",
+                "Okoń Marzena",
+                "Palion-Musioł Agnieszka",
+                "Szatanik Zuzanna",
+                "Szczygłowska Tatiana"
+            ],
+            "Literatura hispanoamerykańska": [
+                "Dimeo Álvarez Carlos"
+            ],
+            "Seminarium dyplomowe": [
+                "Dimeo Álvarez Carlos",
+                "Kocel-Duraj Agnieszka",
+                "Konkol Sławomir",
+                "Lewandowska Elwira",
+                "Szatanik Zuzanna",
+                "Szczygłowska Tatiana",
+                "Wieczorek Anna",
+                "Wiśniewska Natalia"
+            ],
+            "Seminarium magisterskie": [
+                "Dimeo Álvarez Carlos",
+                "Lewandowska Elwira",
+                "Markiewka Tomasz"
+            ],
+            "Teoria literatury": [
+                "Dimeo Álvarez Carlos"
+            ],
+            "Praktyczna znajomość języka angielskiego": [
+                "Dunat Sebastian",
+                "Gardaś Arkadiusz",
+                "Kaliciak Maria",
+                "Kliś Agnieszka",
+                "Kocel-Duraj Agnieszka",
+                "Lewandowska Elwira",
+                "Lisecki Michał",
+                "Marek Monika",
+                "Markiewka Tomasz",
+                "Niemiec Maciej",
+                "Okoń Marzena",
+                "Pysz Kamil",
+                "Raułyk-Dumanow Małgorzata"
+            ],
+            "Historia literatruy amerykańskiej": [
+                "Jarczok Anita"
+            ],
+            "Historia literatury amerykańskiej": [
+                "Jarczok Anita"
+            ],
+            "Metodyka pracy z uczniem ze specjalnymi potrzebami edukacyjnymi": [
+                "Jopek-Bizoń Małgorzata"
+            ],
+            "Pedagogiczne podstawy nauczania języka obcego dzieci/Pedagogical basics of teaching a foreign language to children": [
+                "Jopek-Bizoń Małgorzata"
+            ],
+            "Komunikacja w biznesie w języku hiszpańskim": [
+                "Kasperek Dominika"
+            ],
+            "Język medyczny": [
+                "Kliś Agnieszka"
+            ],
+            "Przekład tekstów specjalistycznych na język angielski": [
+                "Kocel-Duraj Agnieszka"
+            ],
+            "Współczesne teorie językoznawcze": [
+                "Kocel-Duraj Agnieszka",
+                "Lisecki Michał"
+            ],
+            "Historia literatury angielskiej": [
+                "Konkol Sławomir"
+            ],
+            "Wybrane zadagnienia z historii i kultury angielskiego obszaru językowego": [
+                "Korusiewicz Maria"
+            ],
+            "Dydaktyka szczegółowa języka angielskiego": [
+                "Lewandowska Elwira"
+            ],
+            "Metodologia badań glottodydaktycznych": [
+                "Lewandowska Elwira"
+            ],
+            "Nauczanie języka angielskiego uczniów w wieku szkolnym i przedszkolnym": [
+                "Lewandowska Elwira"
+            ],
+            "Komputerowe techniki wspomagania tłumaczenia": [
+                "Lisecki Michał"
+            ],
+            "Przekład audiowizualny": [
+                "Lisecki Michał"
+            ],
+            "Odrabianie zajeć 28.02": [
+                "Marek Monika"
+            ],
+            "Teoria przekładu": [
+                "Markiewka Tomasz"
+            ],
+            "Wstęp do literaturoznawstwa": [
+                "Markiewka Tomasz"
+            ],
+            "Współczesne teorie badań literaturoznawczych i kulturowych": [
+                "Markiewka Tomasz"
+            ],
+            "Język angielski w turystyce": [
+                "Okoń Marzena"
+            ],
+            "Próby przed koncertem 28.02": [
+                "Okoń Marzena"
+            ],
+            "Praktyczna znajomość języka hiszpańskiego- ćwiczenia gramatyczne": [
+                "Palion-Musioł Agnieszka"
+            ],
+            "Język biznesu 1": [
+                "Raułyk-Dumanow Małgorzata"
+            ],
+            "Sesja poprawkowa 27.02": [
+                "Szatanik Zuzanna"
+            ],
+            "Współczesna literatura angielska": [
+                "Szatanik Zuzanna"
+            ],
+            "Tłumaczenie pisemne": [
+                "Szczygłowska Tatiana"
+            ],
+            "Historia i kultura hiszpańskiego obszaru językowego": [
+                "Vidal Jaume"
+            ],
+            "Hiszpański kolokwialny": [
+                "Vidal Jaume"
+            ],
+            "Praktyczna znajomość 2-go języka kierunkowego": [
+                "Vidal Jaume"
+            ],
+            "Język biznesu 2": [
+                "Wieczorek Anna"
+            ],
+            "Podstawy dydaktyki": [
+                "Wieczorek Anna"
+            ],
+            "Praktyczna nauka specjalistycznego języka angielskiego": [
+                "Wieczorek Anna"
+            ],
+            "Gramatyka opisowa języka hiszpańskiego": [
+                "Wiśniewska Natalia"
+            ],
+            "Przekład literacki": [
+                "Wiśniewska Natalia"
+            ],
+            "Praktyczna znajomość języka hiszpańskiego- ekspresja pisemna": [
+                "Wiśniewska Natalia"
+            ],
+            "Hiszpański język biznesu": [
+                "Worek Katarzyna"
+            ],
+            "Praktyczna znajomość języka hiszpańskiego- rozumienie ze słuchu": [
+                "Worek Katarzyna"
+            ]
+        },
+        "K48 Polonistyki": {
+            "Indywidualizacja procesu nauczania": [
+                "Banot Aleksandra"
+            ],
+            "Literatura powszechna": [
+                "Banot Aleksandra"
+            ],
+            "Adiustacja i korekta tekstu": [
+                "Będkowska-Kopczyk Agnieszka"
+            ],
+            "Etyczne zagadnienia pracy tłumacza": [
+                "Będkowska-Kopczyk Agnieszka"
+            ],
+            "Kultura organizacyjna": [
+                "Będkowska-Kopczyk Agnieszka"
+            ],
+            "Wstęp do językoznawstwa": [
+                "Będkowska-Kopczyk Agnieszka",
+                "Szarlej Jolanta"
+            ],
+            "Pisanie tekstów": [
+                "Bergiel Anna"
+            ],
+            "Oświecenie i romantyzm": [
+                "Bernacki Marek",
+                "Romaniszyn-Ziomek Lidia"
+            ],
+            "Sztuka redagowania i retoryki": [
+                "Bernacki Marek"
+            ],
+            "Wykład monograficzny polonistyczny I": [
+                "Bernacki Marek"
+            ],
+            "Literatura polska dwudziestolecia miedzywojennego": [
+                "Czernek-Pasierbek Paulina"
+            ],
+            "Gram. hist.j.pol. z elem. jęz. s.c.s": [
+                "Gajewska Ewelina"
+            ],
+            "Język mediów i polityki": [
+                "Gajewska Ewelina"
+            ],
+            "Kultura języka": [
+                "Gajewska Ewelina"
+            ],
+            "Lingwistyka tekstu": [
+                "Gajewska Ewelina"
+            ],
+            "Ortografia i ortofonia": [
+                "Gajewska Ewelina"
+            ],
+            "Historyczne konteksty liter. i kult.polskiej": [
+                "Kopczyk Michał"
+            ],
+            "Seminarium magisterskie": [
+                "Kopczyk Michał"
+            ],
+            "Teoria literatury": [
+                "Kopczyk Michał"
+            ],
+            "Metodyka nauczania języka i lit. pol. w szkole podstawowej": [
+                "Matuszek Angelika"
+            ],
+            "Prawne aspekty funkcjonowania oświaty": [
+                "Matuszek Angelika"
+            ],
+            "Pomiar dydaktyczny w pracy nauczyciela": [
+                "Matuszek Angelika"
+            ],
+            "Prawo w oświacie": [
+                "Matuszek Angelika"
+            ],
+            "Warsztat pracy wychowawczej nauczyciela": [
+                "Matuszek Angelika"
+            ],
+            "zajęcia z języka polskiego (L)": [
+                "Romaniszyn-Ziomek Lidia"
+            ],
+            "Praktyczna znajomość 2-go języka kierunkowego": [
+                "Romaniszyn-Ziomek Lidia"
+            ],
+            "Seminarium dyplomowe": [
+                "Romaniszyn-Ziomek Lidia",
+                "Stępień Tomasz"
+            ],
+            "Analiza i interpretacja dzieła literackiego": [
+                "Stępień Tomasz"
+            ],
+            "Wybrane zagadnienia z historii literatury": [
+                "Stępień Tomasz"
+            ],
+            "Gramatyka opisowa-morfologia": [
+                "Szarlej Jolanta"
+            ],
+            "Konsultacje": [
+                "Szarlej Jolanta"
+            ],
+            "Leksyka. Leksykografia. Leksykologia": [
+                "Szarlej Jolanta"
+            ],
+            "Wykład monograficzny polonistyczny II": [
+                "Szarlej Jolanta"
+            ],
+            "Wiedza o kulturze": [
+                "Tomalak Barbara"
+            ]
+        },
+        "K50 Teorii i Praktyk Komunikacji": {
+            "Komunikacja interpersonalna": [
+                "Brom Przemysław"
+            ],
+            "Negocjacje handlowe": [
+                "Brom Przemysław"
+            ],
+            "Podstawy ekonomii dla tłumaczy": [
+                "Brom Przemysław"
+            ],
+            "Psychologia komunikacji": [
+                "Brom Przemysław"
+            ],
+            "Psycholingwistyka": [
+                "Brom Przemysław"
+            ],
+            "Technologia informacyjna": [
+                "Feruga Krzysztof"
+            ],
+            "Projektowanie komunikacji (Communication design)": [
+                "Foltyniak-Pękala Anna"
+            ],
+            "Podstawy fotografii cyfrowej": [
+                "Lewicz-Więcław Marta",
+                "Pisarek Jędrzej"
+            ],
+            "Emisja głosu": [
+                "Ostrowska-Knapik Agata"
+            ],
+            "Emisja i higiena głosu": [
+                "Ostrowska-Knapik Agata"
+            ],
+            "Retoryka i emisja głosu": [
+                "Ostrowska-Knapik Agata"
+            ],
+            "Retoryka w praktyce": [
+                "Ostrowska-Knapik Agata"
+            ],
+            "Dydaktyka przedmiotowa języka angielskiego": [
+                "Ożańska-Ponikwia Katarzyna"
+            ],
+            "Seminarium dyplomowe": [
+                "Pysz Robert"
+            ],
+            "Copywriting": [
+                "Urbańska Daria"
+            ],
+            "Analiza i interpretacja tekstu kultury": [
+                "Żyła Mateusz"
+            ],
+            "Literatura i kultura popularna": [
+                "Żyła Mateusz"
+            ]
+        }
+    },
+    "Wydział Inżynierii Materiałów, Budownictwa i Środowiska": {
+        "": {
+            "Obliczenia inżynierskie": [
+                "Antonik-Popiołek Patrycja"
+            ],
+            "Wytrzymałość materiałów 1": [
+                "Antonik-Popiołek Patrycja",
+                "Juraszek Janusz"
+            ],
+            "Fizyka I": [
+                "Bączek Marcin"
+            ],
+            "Wybrane zagadnienia z fizyki": [
+                "Bączek Marcin"
+            ],
+            "Fizyka 2": [
+                "Basiura-Cembala Monika",
+                "Kukulski Tomasz"
+            ],
+            "Podstawy fizyki miękkiej materii": [
+                "Basiura-Cembala Monika"
+            ],
+            "Rentgenografia": [
+                "Basiura-Cembala Monika"
+            ],
+            "Badania jakościowe wody użytkowej": [
+                "Biniaś Dorota",
+                "Grübel Klaudiusz",
+                "Machnicka Alicja"
+            ],
+            "Gospodarka odpadami": [
+                "Biniaś Dorota",
+                "Kuglarz Mariusz",
+                "Wierzbińska Monika"
+            ],
+            "Projektowanie materiałów elastycznych": [
+                "Biniaś Włodzimierz"
+            ],
+            "Spektroskopowe metody badań materiałów": [
+                "Biniaś Włodzimierz"
+            ],
+            "Instalacje budowlane": [
+                "Brachaczek Wacław"
+            ],
+            "Materiały budowlane 1": [
+                "Brachaczek Wacław",
+                "Gabryś Tobiasz",
+                "Grzybowska-Pietras Joanna"
+            ],
+            "Technologia betonu": [
+                "Brachaczek Wacław",
+                "Gwóźdź-Lasoń Monika"
+            ],
+            "Biologia i ekologia ogólna": [
+                "Chmura Damian",
+                "Jachniak Ewa",
+                "Salachna Anna",
+                "Żarnowiec Jan"
+            ],
+            "Biocenologia": [
+                "Chmura Damian",
+                "Salachna Anna"
+            ],
+            "Statystyka": [
+                "Chmura Damian"
+            ],
+            "Synantropizacja układów przyrodniczych": [
+                "Chmura Damian",
+                "Jachniak Ewa"
+            ],
+            "Instalacje proekologiczne": [
+                "Drabczyk Kazimierz",
+                "Grübel Klaudiusz"
+            ],
+            "Efektywność energetyczna": [
+                "Fabia Janusz"
+            ],
+            "Przetwórstwo tworzyw sztucznych": [
+                "Fabia Janusz",
+                "Gawłowski Andrzej"
+            ],
+            "Chemia ogólna i analityczna": [
+                "Fryczkowska Beata"
+            ],
+            "Polimerowe materiały powłokotwórcze": [
+                "Fryczkowski Ryszard"
+            ],
+            "Fizyka": [
+                "Gabryś Tobiasz",
+                "Kukulski Tomasz"
+            ],
+            "Korozja techniczna": [
+                "Gabryś Tobiasz"
+            ],
+            "Ogrzewnictwo": [
+                "Gawłowski Andrzej"
+            ],
+            "Geodezja": [
+                "Gawłowski Paweł"
+            ],
+            "ACAD": [
+                "Graczyk Tadeusz"
+            ],
+            "Materiały i technologie kompozytowe": [
+                "Graczyk Tadeusz"
+            ],
+            "Podstawy metrologii": [
+                "Graczyk Tadeusz",
+                "Kobiela-Mendrek Katarzyna"
+            ],
+            "Zielone budownictwo": [
+                "Grzybowska-Pietras Joanna",
+                "Juzwa Anna"
+            ],
+            "Ekonomika budownictwa": [
+                "Harat Andrzej"
+            ],
+            "Elementy prawa i ochrony własności intelektualnej": [
+                "Harat Andrzej"
+            ],
+            "Instrumenty ekonomiczne w ochronie środowiska": [
+                "Harat Andrzej"
+            ],
+            "Kierowanie procesem inwestycyjnym": [
+                "Harat Andrzej"
+            ],
+            "Prawo budowlane": [
+                "Harat Andrzej"
+            ],
+            "Podstawy prawa i ochrona własności intelektualnych": [
+                "Harat Andrzej"
+            ],
+            "Tworzenie i rozwój form przedsiębiorczości": [
+                "Harat Andrzej"
+            ],
+            "Gleboznawstwo i ochrona gleb": [
+                "Jaguś Andrzej"
+            ],
+            "Ujęcia wód powierzchniowych i podziemnych": [
+                "Jaguś Andrzej"
+            ],
+            "Metody obliczeniowe": [
+                "Juraszek Janusz",
+                "Kowolik Marek"
+            ],
+            "Fundamenty specjalne": [
+                "Juzwa Anna"
+            ],
+            "Mechanika gruntów": [
+                "Juzwa Anna",
+                "Nguyen Giang"
+            ],
+            "Konstrukcje betonowe 1": [
+                "KB Vacat 1"
+            ],
+            "Niezawodność i bezpieczeństwo systemów inż.": [
+                "Kobiela-Mendrek Katarzyna",
+                "Przywara Lucyna"
+            ],
+            "Konstrukcje metalowe 2": [
+                "Kowolik Marek"
+            ],
+            "Melioracje": [
+                "Kozak Janusz"
+            ],
+            "Metody kontrolii wód i ścieków": [
+                "Kuglarz Mariusz",
+                "Mrowiec Bożena"
+            ],
+            "Biotechnologia wody i ścieków": [
+                "Machnicka Alicja"
+            ],
+            "Seminarium dyplomowe": [
+                "Machnicka Alicja"
+            ],
+            "Hydrologia i gospodarka wodna": [
+                "Madzia Marek"
+            ],
+            "Hydraulika i hydrologia": [
+                "Madzia Marek"
+            ],
+            "Prognozy hydrologiczne": [
+                "Madzia Marek"
+            ],
+            "Zastępstwo za Vacat1": [
+                "Madzia Marek"
+            ],
+            "Zarządzanie wodą w mieście": [
+                "Madzia Marek",
+                "Suchanek-Gabzdyl Ewa"
+            ],
+            "Organizacja i zarządzanie nowoczesnym przedsiębiorstwem wodno-kanalizacyjnym": [
+                "Michalski Krzysztof"
+            ],
+            "Monitoring środowiska": [
+                "Mrowiec Bożena",
+                "Wierzbińska Monika"
+            ],
+            "Sesja poprawkowa 28.02": [
+                "Mrowiec Bożena",
+                "Zamorowski Jan"
+            ],
+            "Systemy oczyszczania ścieków": [
+                "Mrowiec Bożena"
+            ],
+            "Sesja poprawkowa 01.03": [
+                "Pająk Zbigniew",
+                "Żelazny Henryk"
+            ],
+            "Chemia środowiska": [
+                "Pietraszko Ewa",
+                "Wyszomirski Mirosław"
+            ],
+            "Rysunek techniczny": [
+                "Pietraszko Ewa",
+                "Walusiak Hubert"
+            ],
+            "Technologie proekologiczne": [
+                "Przywara Lucyna"
+            ],
+            "Biomimetics": [
+                "Rom Monika"
+            ],
+            "Monitoring biologiczny i bioindykacja": [
+                "Salachna Anna"
+            ],
+            "Zarządzanie środowiskiem": [
+                "Salachna Anna"
+            ],
+            "Grafika inżynierska z elementami CAD": [
+                "Siry Roman",
+                "Suchanek-Gabzdyl Ewa",
+                "Walusiak Hubert"
+            ],
+            "Konstrukcje drewniane": [
+                "Siry Roman"
+            ],
+            "Prototypowanie 3D w budownictwie": [
+                "Walusiak Hubert"
+            ],
+            "Podstawy technologii przemysłowych": [
+                "Wierzbińska Monika"
+            ],
+            "Historia wynalazku": [
+                "Wyszomirski Mirosław"
+            ],
+            "Nowoczesne budownictwo komunikacyjne": [
+                "Żak Anna"
+            ],
+            "Budownictwo ogólne 2": [
+                "Żelazny Henryk"
+            ],
+            "Konstrukcje murowe": [
+                "Żelazny Henryk"
+            ]
+        }
+    },
+    "Wydział Nauk o Zdrowiu": {
+        "K52 Pielęgniarstwa": {},
+        "K53 Ratownictwa Medycznego": {},
+        "K54 Zdrowia Publicznego": {},
+        "K55 Biochemii i Biologii Molekularnej": {}
+    },
+    "Wydział Zarządzania i Transportu": {
+        "K31 Zarządzania": {
+            "Ochrona własności intelektualnej": [
+                "Barcik Agnieszka",
+                "Dziwiński Piotr"
+            ],
+            "Prawo gospodarcze": [
+                "Barcik Agnieszka"
+            ],
+            "Prawo": [
+                "Barcik Agnieszka",
+                "Dziwiński Piotr"
+            ],
+            "Seminarium": [
+                "Barcik Agnieszka",
+                "Jakubiec Marcin"
+            ],
+            "Statystyka opisowa": [
+                "Biesok Grzegorz",
+                "Jakubiec Marcin"
+            ],
+            "Zarządzanie jakością": [
+                "Biesok Grzegorz",
+                "Gajewska Paulina",
+                "Jakubiec Marcin",
+                "Słowiak Barbara"
+            ],
+            "Zarządzanie procesami": [
+                "Biesok Grzegorz"
+            ],
+            "Informatyka w zarządzaniu": [
+                "Bylinko Leszek",
+                "Owsiak Dariusz",
+                "Słowiak Barbara"
+            ],
+            "Logistyka dystrybucji": [
+                "Bylinko Leszek",
+                "Owsiak Dariusz"
+            ],
+            "Nowoczesne koncepcje logistyczne": [
+                "Bylinko Leszek",
+                "Owsiak Dariusz"
+            ],
+            "Sesja egzaminacyjna 28.02": [
+                "Bylinko Leszek"
+            ],
+            "Systemy transportu zbiorowego": [
+                "Bylinko Leszek"
+            ],
+            "Zarządzanie logistyczne": [
+                "Bylinko Leszek",
+                "Owsiak Dariusz",
+                "Wyród-Wróbel Jolanta"
+            ],
+            "Zarządzanie mobilnością": [
+                "Bylinko Leszek"
+            ],
+            "Zarządzanie łańcuchem dostaw": [
+                "Bylinko Leszek",
+                "Owsiak Dariusz"
+            ],
+            "Prawo autorskie": [
+                "Dziwiński Piotr"
+            ],
+            "Podstawy prawne w transporcie": [
+                "Dziwiński Piotr"
+            ],
+            "Projekty unijne": [
+                "Dziwiński Piotr"
+            ],
+            "Zarządzanie projektami": [
+                "Dziwiński Piotr",
+                "Jakubiec Marcin",
+                "Słowiak Barbara",
+                "Wyród-Wróbel Jolanta"
+            ],
+            "Zarządzanie społecznie odpowiedzialne": [
+                "Dziwiński Piotr"
+            ],
+            "Kreowanie przestrzeni zawodowej": [
+                "Gajewska Paulina"
+            ],
+            "Zarządzanie jakością usług": [
+                "Gajewska Paulina"
+            ],
+            "Ocena systemów zarządzania": [
+                "Jakubiec Marcin",
+                "Słowiak Barbara"
+            ],
+            "Podstawy jakości": [
+                "Jakubiec Marcin"
+            ],
+            "Podstawy logistyki": [
+                "Jakubiec Marcin"
+            ],
+            "Projektowanie systemów zarządzania jakością": [
+                "Jakubiec Marcin",
+                "Słowiak Barbara"
+            ],
+            "Zarządzanie kryzysowe": [
+                "Jakubiec Marcin"
+            ],
+            "Zarządzanie produktem": [
+                "Jakubiec Marcin"
+            ],
+            "Zarządzanie zapasami": [
+                "Owsiak Dariusz"
+            ],
+            "Branżowe systemy zarządzania": [
+                "Słowiak Barbara"
+            ],
+            "Total quality management (w jęz.ang.)": [
+                "Słowiak Barbara"
+            ],
+            "Controlling": [
+                "Żyminkowski Tomasz"
+            ],
+            "Marketing": [
+                "Żyminkowski Tomasz"
+            ],
+            "Marketing internetowy": [
+                "Żyminkowski Tomasz"
+            ],
+            "Negocjacje i techniki sprzedaży": [
+                "Żyminkowski Tomasz"
+            ],
+            "Podstawy prowadzenia działalności gospodarczej / Podstawy przedsiębiorczości": [
+                "Żyminkowski Tomasz"
+            ],
+            "Techniki operacyjne": [
+                "Żyminkowski Tomasz"
+            ]
+        },
+        "K32 Nauk Ekonomicznych i Społecznych": {
+            "Globalne procesy społeczne / Zjawiska globalne: teorie i interpretacje": [
+                "Bąk-Szołucha Aneta"
+            ],
+            "Globalne procesy społeczne / Zjawiska globalne: teorie i interpretacje globalizacyjne": [
+                "Bąk-Szołucha Aneta"
+            ],
+            "Konwersatorium": [
+                "Bąk-Szołucha Aneta",
+                "Piątek Katarzyna"
+            ],
+            "Komunikacja wewnętrzna / Komunikacja w biznesie": [
+                "Bąk-Szołucha Aneta"
+            ],
+            "Podstawy public relations": [
+                "Bąk-Szołucha Aneta"
+            ],
+            "Podstawy socjologii": [
+                "Bąk-Szołucha Aneta",
+                "Jeziorski Ireneusz"
+            ],
+            "Społeczeństwo informacyjne": [
+                "Bąk-Szołucha Aneta"
+            ],
+            "Seminarium licencjackie": [
+                "Bąk-Szołucha Aneta",
+                "Jeziorski Ireneusz"
+            ],
+            "Socjologia reklamy / Psychologia reklamy": [
+                "Bąk-Szołucha Aneta"
+            ],
+            "Zarządzanie zasobami ludzkimi": [
+                "Bąk-Szołucha Aneta",
+                "Gąsiorek-Madzia Sylwia"
+            ],
+            "Business Development Support Policy (w jęz.ang.)": [
+                "Bieńkowska Beata"
+            ],
+            "Business development support policy (w jęz.ang.)": [
+                "Bieńkowska Beata"
+            ],
+            "Diversity management (w jęz. ang.)": [
+                "Bieńkowska Beata"
+            ],
+            "Mikroekonomia": [
+                "Bieńkowska Beata",
+                "Piecuch Paweł"
+            ],
+            "Podstawy ekonomii": [
+                "Bieńkowska Beata",
+                "Piecuch Paweł"
+            ],
+            "Polityka edukacyjna i rynek pracy": [
+                "Bieńkowska Beata"
+            ],
+            "Small business (w jęz.ang.)": [
+                "Bieńkowska Beata"
+            ],
+            "Zarządzanie oświatą": [
+                "Bieńkowska Beata"
+            ],
+            "Instytucje w UE": [
+                "Czerwińska-Lubszczyk Agnieszka",
+                "Zielińska Agnieszka"
+            ],
+            "Kadry i płace": [
+                "Czerwińska-Lubszczyk Agnieszka"
+            ],
+            "Konsultacje (L)": [
+                "Czerwińska-Lubszczyk Agnieszka"
+            ],
+            "Makroekonomia": [
+                "Czerwińska-Lubszczyk Agnieszka"
+            ],
+            "Przedsiębiorczość i innowacje": [
+                "Czerwińska-Lubszczyk Agnieszka",
+                "Zielińska Agnieszka"
+            ],
+            "Analiza rynków finansowych": [
+                "Dusza Dominika"
+            ],
+            "Finanse przedsiębiorstw": [
+                "Dusza Dominika",
+                "Michalski Dariusz",
+                "Musialik Grażyna"
+            ],
+            "Finanse zielonej transformacji": [
+                "Dusza Dominika"
+            ],
+            "Narzędzia w analizie ekonomicznej biznesu": [
+                "Dusza Dominika"
+            ],
+            "Wprowadzenie do finansów międzynarodowych": [
+                "Dusza Dominika"
+            ],
+            "Etyka w administracji": [
+                "Dzień Mirosław"
+            ],
+            "Filozofia": [
+                "Dzień Mirosław"
+            ],
+            "Problemy etyczne w biznesie": [
+                "Dzień Mirosław",
+                "Gąsiorek-Madzia Sylwia"
+            ],
+            "Seminarium": [
+                "Dzień Mirosław",
+                "Gąsiorek-Madzia Sylwia"
+            ],
+            "PR w administracji": [
+                "Gąsiorek-Madzia Sylwia"
+            ],
+            "Współczesne organizacje": [
+                "Gąsiorek-Madzia Sylwia"
+            ],
+            "Zarządzanie karierą zawodową": [
+                "Gąsiorek-Madzia Sylwia"
+            ],
+            "Dynamika zmian współczesnego społeczeństwa polskiego": [
+                "Jeziorski Ireneusz"
+            ],
+            "Metody wizualne / Antropologia wizualna": [
+                "Jeziorski Ireneusz",
+                "Korzewski Marcin"
+            ],
+            "Metodologia w nauce": [
+                "Jeziorski Ireneusz"
+            ],
+            "Problemy etyczne w zawodzie socjologa": [
+                "Jeziorski Ireneusz"
+            ],
+            "Socjologia wizualna / Badanie obrazów społecznych": [
+                "Jeziorski Ireneusz"
+            ],
+            "Wykład monograficzny": [
+                "Jeziorski Ireneusz"
+            ],
+            "Elementy socjotechniki / Inżynieria społeczna": [
+                "Korzewski Marcin"
+            ],
+            "Kultura organizacyjna / Kultura i wielokulturowość w biznesie": [
+                "Korzewski Marcin"
+            ],
+            "Kultura organizacyjna / Kultura i wielokulturowść w biznesie": [
+                "Korzewski Marcin"
+            ],
+            "Socjologia mediów / Mass media i nowe media": [
+                "Korzewski Marcin"
+            ],
+            "Socjologia prawa / Socjologia problemów spolecznych": [
+                "Korzewski Marcin"
+            ],
+            "Socjologia prawa / Socjologia problemów społecznych": [
+                "Korzewski Marcin"
+            ],
+            "Analizy statystyczne na bazach danych": [
+                "Kubisz-Muła Łukasz"
+            ],
+            "Metody badań socjologicznych": [
+                "Kubisz-Muła Łukasz"
+            ],
+            "Metody statystyczne 2": [
+                "Kubisz-Muła Łukasz"
+            ],
+            "Procesy demograficzne": [
+                "Kubisz-Muła Łukasz"
+            ],
+            "Projekt socjologiczny": [
+                "Kubisz-Muła Łukasz"
+            ],
+            "Wprowadzenie do finansów": [
+                "Michalski Dariusz"
+            ],
+            "Analiza portfelowa": [
+                "Musialik Grażyna"
+            ],
+            "Analiza przedsięwzięć inwestycyjnych firmy": [
+                "Musialik Grażyna"
+            ],
+            "Rachunkowość zarządcza": [
+                "Musialik Grażyna"
+            ],
+            "Strategie finansowania organizacji": [
+                "Musialik Grażyna"
+            ],
+            "Budowanie zespołu / Metody pracy z grupą i zespołem": [
+                "Piątek Katarzyna"
+            ],
+            "Coaching / Podstawy coachingu i mentoringu": [
+                "Piątek Katarzyna"
+            ],
+            "Komunikacja interpersonalna": [
+                "Piątek Katarzyna"
+            ],
+            "Motywowanie pracowników": [
+                "Piątek Katarzyna"
+            ],
+            "Podstawy coachingu i mentoringu": [
+                "Piątek Katarzyna"
+            ],
+            "Psychologia w biznesie": [
+                "Piątek Katarzyna"
+            ],
+            "Analiza modeli biznesowych": [
+                "Piecuch Paweł"
+            ],
+            "Analiza polityk publicznych / Analiza polityk miejskich": [
+                "Wróblewska-Jachna Joanna"
+            ],
+            "Metody prezentacji danych": [
+                "Wróblewska-Jachna Joanna"
+            ],
+            "Podstawy ewaluacji": [
+                "Wróblewska-Jachna Joanna"
+            ],
+            "Interpersonal communication (w jęz. ang.)": [
+                "Zielińska Agnieszka"
+            ],
+            "Odrabianie zajęć /Pii za 7.III/ 26.02": [
+                "Zielińska Agnieszka"
+            ]
+        },
+        "K36 Transportu": {
+            "Monitoring w systemach ITS": [
+                "Baran Dariusz",
+                "Konior Tomasz"
+            ],
+            "Infrastruktura transportu": [
+                "Brzozowski Krzysztof",
+                "Sordyl Justyna"
+            ],
+            "Bezzałogowe statki powietrzne": [
+                "Honkisz Marcin",
+                "Sordyl Justyna"
+            ],
+            "Drony w turystyce": [
+                "Honkisz Marcin",
+                "Sordyl Justyna"
+            ],
+            "Podstawy automatyzacji procesów": [
+                "Honkisz Marcin",
+                "Maczyński Andrzej"
+            ],
+            "Sterowanie i monitoring": [
+                "Honkisz Marcin",
+                "Maczyński Andrzej"
+            ],
+            "Systemy mikroprocesorowe": [
+                "Honkisz Marcin"
+            ],
+            "Systemy sterowania ruchem drogowym": [
+                "Konior Tomasz",
+                "Maczyński Andrzej"
+            ],
+            "Środki transportu II": [
+                "Konior Tomasz",
+                "Maczyński Andrzej"
+            ],
+            "Logistyka": [
+                "Kubański Mariusz",
+                "Lazar Anna",
+                "Sordyl Justyna"
+            ],
+            "Logistyka zaopatrzenia": [
+                "Kubański Mariusz",
+                "Sordyl Justyna"
+            ],
+            "Podstawy socjologii": [
+                "Kubański Mariusz"
+            ],
+            "Seminarium dyplomowe I": [
+                "Kubański Mariusz",
+                "Płosa Jerzy"
+            ],
+            "Systemy logistyczne": [
+                "Kubański Mariusz",
+                "Loga-Księska Wiktoria"
+            ],
+            "Systemy zarządzania jakością w transporcie": [
+                "Kubański Mariusz"
+            ],
+            "Zarządzanie przedsiębiorstwem logistycznym": [
+                "Kubański Mariusz",
+                "Sordyl Justyna"
+            ],
+            "Zarządzanie łańcuchem dostaw": [
+                "Kubański Mariusz",
+                "Sordyl Justyna"
+            ],
+            "Inżynieria ruchu": [
+                "Loga-Księska Wiktoria",
+                "Ryguła Artur"
+            ],
+            "Oprogramowanie użytkowe": [
+                "Loga-Księska Wiktoria",
+                "Ryguła Artur"
+            ],
+            "Usługi i systemy telematyczne": [
+                "Loga-Księska Wiktoria",
+                "Ryguła Artur"
+            ],
+            "Bezpieczeństwo transportu samochodowego": [
+                "Maczyński Andrzej"
+            ],
+            "Budowa środków transportu": [
+                "Maczyński Andrzej"
+            ],
+            "Zarządzanie flotą pojazdów": [
+                "Maczyński Andrzej",
+                "Ryguła Artur"
+            ],
+            "Środki transportu I": [
+                "Maczyński Andrzej"
+            ],
+            "Drgania mechaniczne": [
+                "Płosa Jerzy"
+            ],
+            "Grafika inżynierska A": [
+                "Płosa Jerzy"
+            ],
+            "Mechanika techniczna III": [
+                "Płosa Jerzy"
+            ],
+            "Teoria niezawodności i bezpieczeństwa": [
+                "Płosa Jerzy"
+            ],
+            "Metodyka prowadzenia projektów badawczo-rozwojowych": [
+                "Ryguła Artur"
+            ],
+            "Pomiary inżynierskie": [
+                "Ryguła Artur"
+            ],
+            "Pomiary potoków ruchu": [
+                "Ryguła Artur"
+            ],
+            "Teoria potoków ruchu w transporcie": [
+                "Ryguła Artur"
+            ],
+            "Challenges of transport": [
+                "Sordyl Justyna"
+            ],
+            "Rozwiązania proekologiczne w logistyce": [
+                "Sordyl Justyna"
+            ]
+        },
+        "K37 Marketingu i Przedsiębiorczości": {
+            "Desing thinking": [
+                "Dudzik-Lewicka Irena"
+            ],
+            "Przedsiębiorczość": [
+                "Dudzik-Lewicka Irena"
+            ],
+            "Zarządzanie firmą": [
+                "Dudzik-Lewicka Irena"
+            ],
+            "Zarządzanie strategiczne": [
+                "Dudzik-Lewicka Irena"
+            ],
+            "Biznes plan": [
+                "Howaniec Honorata"
+            ],
+            "Podstawy marketingu": [
+                "Howaniec Honorata",
+                "Żyminkowska Katarzyna"
+            ],
+            "Społeczna odpowiedzialność biznesu": [
+                "Howaniec Honorata"
+            ],
+            "Interdyscyplinarna Szkoła Doktorska 28.02": [
+                "Jędrzejczyk Irena"
+            ],
+            "Seminarium": [
+                "Jędrzejczyk Irena"
+            ],
+            "Content marketing": [
+                "Lipianin-Zontek Ewa",
+                "Zontek Zbigniew"
+            ],
+            "Strategie marketingowe": [
+                "Lipianin-Zontek Ewa"
+            ],
+            "Turystyka w sektorze publicznym / Instytucje rynkowe w turystyce": [
+                "Lipianin-Zontek Ewa"
+            ],
+            "Zarządzanie i planowanie marketingowe": [
+                "Lipianin-Zontek Ewa"
+            ],
+            "Zarządzanie produktem": [
+                "Lipianin-Zontek Ewa"
+            ],
+            "Analiza ekonomiczna organizacji": [
+                "Madyda Aneta",
+                "Zontek Zbigniew"
+            ],
+            "Nauka o organizacji": [
+                "Madyda Aneta",
+                "Szewczyk Irena"
+            ],
+            "Otoczenie kulturowe w biznesie": [
+                "Madyda Aneta"
+            ],
+            "Sesja egzaminacyjna 27.02": [
+                "Madyda Aneta"
+            ],
+            "Savoir vivre w biznesie": [
+                "Madyda Aneta"
+            ],
+            "Zarządzanie przedsiębiorstwem turystycznym": [
+                "Madyda Aneta"
+            ],
+            "Architektura oganizacji": [
+                "Szewczyk Irena"
+            ],
+            "Ofertowanie usług turystycznych": [
+                "Szewczyk Irena"
+            ],
+            "Przywództwo w organizacji": [
+                "Szewczyk Irena"
+            ],
+            "Podstawy zarządzania": [
+                "Szewczyk Irena"
+            ],
+            "Techniki menedżerskie": [
+                "Szewczyk Irena"
+            ],
+            "Zarządzanie karierą zawodową": [
+                "Szewczyk Irena"
+            ],
+            "Badania marketingowe": [
+                "Zontek Zbigniew"
+            ],
+            "Metody badań jakościowych": [
+                "Zontek Zbigniew"
+            ],
+            "Marketing w handlu i usługach": [
+                "Zontek Zbigniew"
+            ],
+            "Marketing w handlu i usługch": [
+                "Zontek Zbigniew"
+            ],
+            "Podstawy marketingu / E-marketing": [
+                "Zontek Zbigniew"
+            ],
+            "Zachowania konsumentów usług turystycznych / Prosument w usługach turystycznych": [
+                "Zontek Zbigniew"
+            ],
+            "Marketing": [
+                "Żyminkowska Katarzyna"
+            ],
+            "Marketing internetowy": [
+                "Żyminkowska Katarzyna"
+            ],
+            "Reklama kontekstowa": [
+                "Żyminkowska Katarzyna"
+            ]
+        },
+        "K38 Modelowania Komputerowego": {
+            "Contemporary transport systems (w jęz. ang.)": [
+                "Adamiec-Wójcik Iwona"
+            ],
+            "Metody matematyczne w transporcie": [
+                "Adamiec-Wójcik Iwona"
+            ],
+            "Inżynieria bezpieczeństwa w transporcie": [
+                "Brzozowska Lucyna"
+            ],
+            "Ochrona środowiska w transporcie": [
+                "Brzozowska Lucyna"
+            ],
+            "Podstawy grafiki komputerowej": [
+                "Brzozowska Lucyna"
+            ],
+            "Podstawy programowania": [
+                "Brzozowska Lucyna",
+                "Drąg Łukasz"
+            ],
+            "Seminarium dyplomowe II": [
+                "Brzozowska Lucyna"
+            ],
+            "Systemy transportowe": [
+                "Brzozowska Lucyna",
+                "Jabłonka Jarosław"
+            ],
+            "Zarządzanie bezpieczeństwem": [
+                "Brzozowska Lucyna"
+            ],
+            "Elementy telematyki transportu": [
+                "Drąg Łukasz"
+            ],
+            "Prezentacja wyników badań": [
+                "Drąg Łukasz"
+            ],
+            "SIP w transporcie": [
+                "Drąg Łukasz"
+            ],
+            "Zastosowanie GIS w logistyce": [
+                "Drąg Łukasz"
+            ],
+            "Bazy danych II": [
+                "Grinke Leonard",
+                "Nowak Andrzej"
+            ],
+            "Bazy danych w logistyce": [
+                "Grinke Leonard"
+            ],
+            "Filozofia": [
+                "Jabłonka Jarosław"
+            ],
+            "Informatyka III A": [
+                "Jabłonka Jarosław"
+            ],
+            "Konsultacje 27.02": [
+                "Jabłonka Jarosław"
+            ],
+            "Modelowanie systemów transportowych": [
+                "Jabłonka Jarosław"
+            ],
+            "Bazy danych": [
+                "Nowak Andrzej"
+            ],
+            "Grafika inżynierska": [
+                "Nowak Andrzej"
+            ],
+            "Informatyka III": [
+                "Nowak Andrzej"
+            ],
+            "Projektowanie urządzeń transporowych": [
+                "Nowak Andrzej"
+            ]
+        }
+    }
+}
