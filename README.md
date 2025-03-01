@@ -20,7 +20,12 @@ cd PZP-Plany
 
 ### 2. Backend
 #### Instalacja zależności
-
+```
+cd backend
+python -m venv ./venv
+.\.venv\Scripts\activate
+pip install -r requirements.txt
+``` 
 ### 3. Frontend
 #### Instalacja zależności
 Wymagane jest posiadanie Node.js (zalecana wersja 16+).
