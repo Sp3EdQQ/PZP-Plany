@@ -15,43 +15,16 @@ function App() {
     }, []);
 
     return (
-        <div className="bg-neutral-800 text-neutral-100 h-max w-screen p-4">
+        <div className="bg-neutral-800 text-neutral-100 h-screen w-screen p-4">
             <div className="flex flex-row">
                 <CalendarDiv/>
                 <Header/>
             </div>
-            {data && Object.entries(data).map(([facultyName, faculty]) => (
-
-                <div key={facultyName} className="mb-6">
-                    <div className="text-2xl font-semibold">{facultyName}</div>
-
-                    {Object.entries(faculty).map(([departmentName, department]) => (
-
-                        <div key={departmentName} className="ml-4">
-                            <div className="text-xl mt-2">{departmentName}</div>
-
-                            {Object.entries(department).map(([subject, lecturers]) => (
-                                <div key={subject} className="ml-6">
-                                    <p className="text-xl">{subject}:</p>
-                                    <ul className="list-disc list-inside">
-
-                                        {lecturers.map((lecturer, index) => (
-                                            <li key={index}>{lecturer}</li>
-                                        ))
-                                        }
-
-                                    </ul>
-                                </div>
-                            ))
-                            }
-                        </div>
-
-                    ))
-                    }
-                </div>
-
-            ))
-            }
+            <div>
+                {data && Object.keys(data).map((wydzial) => (
+                    <div>{wydzial}</div>
+                ))}
+            </div>
         </div>
     );
 }
