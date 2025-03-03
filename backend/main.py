@@ -124,5 +124,5 @@ finally:
     driver.quit()
 
 # Zapis danych do pliku JSON
-with open("plan.json", "w", encoding="utf-8") as f:
+with open("frontend/public/plan.json", "w", encoding="utf-8") as f:
     json.dump(data, f, ensure_ascii=False, indent=4)
