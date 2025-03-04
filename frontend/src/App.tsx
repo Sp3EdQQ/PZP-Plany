@@ -14,7 +14,7 @@ function App() {
             .then((json: University) => setData(json))
     }, []);
     return (
-        <div className="h-max w-screen">
+        <div className="h-max w-screen overflow-x-hidden">
             <div className="flex flex-row">
                 <SideBarLeft propData={data} propSetSelectedWydzial={setSelectedWydzial}/>
                 {data && (<MainContent propData={data} propSelectedWydzial={selectedWydzial || ""}/>)}
