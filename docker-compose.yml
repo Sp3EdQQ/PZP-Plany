@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  #KONFIGURACJABACKENDU
+  #  backend:
+  #    build:
+  #      context: ./backend  # Ścieżka do folderu backend
+  #    ports:
+  #      - "5000:5000"  # Mapowanie portu 5000 z kontenera na hosta
+  #    volumes:
+  #      - ./backend:/app  # Mapowanie folderu backend na kontener (w przypadku wprowadzania zmian)
+  #    environment:
+  #      - NODE_ENV=development  # Możesz dodać inne zmienne środowiskowe, jeśli potrzebne
+  #    networks:
+  #      - app-network  # Sieć do komunikacji między frontendem a backendem
+
+  #KONFIGURACJAFRONTENDU
+  frontend:
+    build:
+      context: ./frontend  # Ścieżka do folderu frontend
+    ports:
+      - "5173:5173"  # Mapowanie portu 5173 z kontenera na hosta
+    volumes:
+      - ./frontend:/app  # Mapowanie folderu frontend na kontener (dla live reloading)
+    command: [ "npm", "run", "dev", "--", "--host" ]
