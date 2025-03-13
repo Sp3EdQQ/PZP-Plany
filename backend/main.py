@@ -8,7 +8,6 @@ import selenium
 from bs4 import BeautifulSoup
 import time
 import json
-from tqdm import tqdm
 
 # Konfiguracja selenium
 options = Options()
@@ -21,16 +20,8 @@ driver.get("https://plany.ubb.edu.pl/left_menu.php?type=2#")  # Bierzemy drugą 
 # Opóźnienie dla selenium
 driver.implicitly_wait(2)
 
-# JSON
+# JSON – struktura do zapisania danych
 data = {}
-
-# Formatowanie nazwy przedmiotu
-def normalize_subject(subject):
-    base = subject.split(",")[0].strip()
-    words = base.split()
-    if words and words[0].lower() == "zarządzania":
-        words[0] = "Zarządzanie"
-    return " ".join(words)
 
 try:
     # Pobierz wydziały
@@ -38,11 +29,11 @@ try:
         EC.presence_of_all_elements_located((By.CSS_SELECTOR, "ul.main_tree.treeview > li"))
     )
     
-    faculties = _faculties[1:-2]  # Pomijamy pierwszy i ostatnie dwa elementy
-
-    # Nawigacja po hierarchii
-    for faculty in tqdm(faculties, desc="Wydziały"):
+    faculties = _faculties[:-2]  # Pomijamy ostatnie elementy
+    
+    for faculty in faculties:
         faculty_name = faculty.text.strip()
+        print("\t", faculty_name)
         data[faculty_name] = {}
 
         next = faculty.find_element(By.CSS_SELECTOR, "img[src*='plus1.gif']")
@@ -53,8 +44,9 @@ try:
             EC.presence_of_all_elements_located((By.CSS_SELECTOR, "ul.treeview li"))
         )
         
-        for department in tqdm(departments, desc="Katedry", leave=False):
+        for department in departments:
             department_name = department.text.strip()
+            print("\t\t", department_name)
             data[faculty_name][department_name] = {}
 
             next = department.find_element(By.CSS_SELECTOR, "img[src*='plus.gif']")
@@ -66,15 +58,15 @@ try:
             )
             
             time.sleep(1)
-            for person in tqdm(lecturers, desc="Prowadzący", leave=False):
+            for person in lecturers:
                 person_name = person.text.strip()
+                print("\t\t\t", person_name)
 
                 try:
                     plan = person.find_element(By.CSS_SELECTOR, "ul li a")
                     driver.execute_script("arguments[0].click();", plan)
                     driver.switch_to.window(driver.window_handles[-1])
                     
-                # Można zmienić na ogólny Exception (idk)
                 except selenium.common.exceptions.NoSuchElementException:
                     plus = person.find_element(By.CSS_SELECTOR, "img[src*='plus.gif']")
                     driver.execute_script("arguments[0].click();", plus)
@@ -83,46 +75,79 @@ try:
                     driver.switch_to.window(driver.window_handles[-1])
 
                 try:
-                    # Pobierz plan prowadzącego
-                    data_element = WebDriverWait(driver, 2).until(
-                        EC.presence_of_element_located((By.CSS_SELECTOR, "div.data"))
-                    )         
-                    full_html = data_element.get_attribute("innerHTML")
-                    
-                    # Formatowanie planu
-                    parts = full_html.split("<hr>")
-                    extracted_html = parts[1].strip() if len(parts) >= 2 else full_html.strip()
+                    # Pobierz plan prowadzącego (wszystkie divy z klasą "coursediv")
+                    course_elements = WebDriverWait(driver, 2).until(
+                        EC.presence_of_all_elements_located((By.CSS_SELECTOR, "div.coursediv"))
+                    )
 
-                    soup = BeautifulSoup(extracted_html, "html.parser")
-                    subject_lines = []
-                    
-                    for strong_tag in soup.find_all("strong"):
-                        text = strong_tag.get_text(strip=True)
-                        if strong_tag.next_sibling:
-                            description = strong_tag.next_sibling.strip()
-                            subject_lines.append(f"{text} {description}")
-                        else:
-                            subject_lines.append(text)
+                    courses_list = []  # lista na kursy dla danego nauczyciela
 
-                    for subject in subject_lines:
-                        subject_name = subject.split(" - ")[1].strip()
-                        subject_name = subject_name.split(",")[0].strip() 
-
-                        if subject_name not in data[faculty_name][department_name]:
-                            data[faculty_name][department_name][subject_name] = []
+                    # Iterujemy po wszystkich kursach (każdy kurs to oddzielny div)
+                    for course_element in course_elements:
+                        full_html = course_element.get_attribute("innerHTML")
                         
-                        if person_name not in data[faculty_name][department_name][subject_name]:
-                            data[faculty_name][department_name][subject_name].append(person_name)
+                        # Parsowanie HTML-a przy pomocy BeautifulSoup
+                        soup = BeautifulSoup(full_html, "html.parser")
+                        
+                        # Pobierz cały tekst z diva – oddzielony znakami nowej linii
+                        raw_text = soup.get_text(separator="\n").strip()
+                        lines = [line.strip() for line in raw_text.split("\n") if line.strip()]
+                        
+                        # Pierwsza linia zawiera skrót przedmiotu i rodzaj zajęć, np. "So, wyk" lub "Sip, ćw"
+                        course_subject = ""
+                        course_activity_type = ""
+                        if lines:
+                            parts = lines[0].split(",")
+                            if len(parts) >= 2:
+                                course_subject = parts[0].strip()
+                                course_activity_type = parts[1].strip()
+                            else:
+                                course_subject = lines[0].strip()
+                        
+                        # Pobierz wszystkie znaczniki <a> wewnątrz diva i rozdziel je na linki do grup i do sal
+                        all_links = soup.find_all("a")
+                        group_links = []
+                        room_links = []
+                        for a in all_links:
+                            href = a.get("href", "")
+                            if "type=20" in href:
+                                room_links.append(a)
+                            elif "type=2" in href:
+                                group_links.append(a)
+                        
+                        course_groups = tuple(sorted(a.get_text(strip=True) for a in group_links))
+                        course_rooms  = tuple(sorted(a.get_text(strip=True) for a in room_links))
+                        
+                        # Zbuduj słownik reprezentujący kurs
+                        course_data = {
+                            "subject": course_subject,
+                            "activity_type": course_activity_type,
+                            "groups": course_groups,
+                            "rooms": course_rooms
+                        }
+                        
+                        # Dodaj kurs do listy, tylko jeśli nie istnieje w tej samej formie
+                        if course_data not in courses_list:
+                            courses_list.append(course_data)
+
+                    # Wypisz wyniki (lub zapisz do słownika)
+                    for course in courses_list:
+                        print("\t\t\t\tRodzaj zajęć:", course["activity_type"])
+                        print("\t\t\t\tSubject:", course["subject"])
+                        print("\t\t\t\tGrupy:", course["groups"])
+                        print("\t\t\t\tSale:", course["rooms"])
+
+                    # Zapisz kursy nauczyciela do struktury JSON
+                    data[faculty_name][department_name][person_name] = courses_list
 
                 except Exception:
                     driver.close()
                     
                 driver.switch_to.window(driver.window_handles[0])
-                
 
 finally:
     driver.quit()
 
 # Zapis danych do pliku JSON
-with open("frontend/public/plan.json", "w", encoding="utf-8") as f:
+with open("plan.json", "w", encoding="utf-8") as f:
     json.dump(data, f, ensure_ascii=False, indent=4)
