@@ -107,9 +107,13 @@ try:
                     time.sleep(for_delay)
                     for semester in semesters:
                         # Pobierz nazwę semestru
-                        semester_name = semester.find_element(By.CSS_SELECTOR, "a").text.strip()
-                        print(f"\t\t\t\t\t{semester_name}")
-                        data[faculty_name][study_name][program_name][degree_name][semester_name] = {}
+                        try: 
+                            semester_name = semester.find_element(By.CSS_SELECTOR, "a").text.strip()
+                            print(f"\t\t\t\t\t{semester_name}")
+                            data[faculty_name][study_name][program_name][degree_name][semester_name] = {}
+                        
+                        except Exception:
+                            pass
 
                         # Rozwiń semestr (jeśli istnieje plus)
                         try:

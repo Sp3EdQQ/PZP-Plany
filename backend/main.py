@@ -44,6 +44,7 @@ try:
             EC.presence_of_all_elements_located((By.CSS_SELECTOR, "ul.treeview li"))
         )
         
+        time.sleep(1)
         for department in departments:
             department_name = department.text.strip()
             print("\t\t", department_name)
@@ -103,7 +104,7 @@ try:
                                 course_activity_type = parts[1].strip()
                             else:
                                 course_subject = lines[0].strip()
-                        
+
                         # Pobierz wszystkie znaczniki <a> wewnątrz diva i rozdziel je na linki do grup i do sal
                         all_links = soup.find_all("a")
                         group_links = []
@@ -112,9 +113,9 @@ try:
                             href = a.get("href", "")
                             if "type=20" in href:
                                 room_links.append(a)
-                            elif "type=2" in href:
+                            elif "type=0" in href or "type=2" in href:
                                 group_links.append(a)
-                        
+                                
                         course_groups = tuple(sorted(a.get_text(strip=True) for a in group_links))
                         course_rooms  = tuple(sorted(a.get_text(strip=True) for a in room_links))
                         
