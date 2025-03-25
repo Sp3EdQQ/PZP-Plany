@@ -1,11 +1,18 @@
-type Department = {
-    [subject: string]: string[];
-};
-
-type Faculty = {
-    [department: string]: Department;
-};
-
 export type University = {
-    [faculty: string]: Faculty;
+    [faculty: string]: Department;
+};
+
+export type Department = {
+    [catedral: string]: TeacherClasses;
+};
+
+export type TeacherClasses = {
+    [teacher: string]: ClassDetails[];
+};
+
+export type ClassDetails = {
+    subject: string;
+    activity_type: string;
+    groups: string[];
+    rooms: string[];
 };
