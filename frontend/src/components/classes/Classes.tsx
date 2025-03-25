@@ -1,15 +1,9 @@
 import {useState} from "react";
 import {getGroups} from "@/components/classes/GroupSelector.ts";
-import {University} from "../../../types/University.ts";
 import {getStudyTypeLabel, getStudyTypes} from "@/components/classes/StudyTypeSelector.ts";
 
-type ClassesProps = {
-    propCatedral: string;
-    dataCatedral: string;
-    propSelectedWydzial: string;
-    propData: University;
-    isOpen: boolean;
-    onToggle: () => void;
+const extractMajor = (groupString) => {
+    return groupString.split("/")[0]; // Pobiera tylko nazwę kierunku
 };
 
 export const Classes = ({
@@ -19,11 +13,13 @@ export const Classes = ({
                             propData,
                             isOpen,
                             onToggle
-                        }: ClassesProps) => {
+                        }) => {
     const [selectedType, setSelectedType] = useState<string | null>(null);
+    const [selectedMajor, setSelectedMajor] = useState<string | null>(null);
     const [selectedGroup, setSelectedGroup] = useState<string | null>(null);
 
     const zajecia = propData?.[propSelectedWydzial]?.[dataCatedral] || {};
+    const availableMajors = new Set<string>();
     const availableGroups = new Set<string>();
     const groupedBySubject: Record<string, Record<string, { rooms: string[] }>> = {};
 
@@ -31,15 +27,20 @@ export const Classes = ({
         zajeciaList.forEach((zaj) => {
             const studyType = zaj.groups.length ? getStudyTypes().find(type => zaj.groups.some(g => g.includes(`/${type}/`))) ?? "S" : "S";
             if (selectedType && studyType === selectedType) {
-                const groups = getGroups(zaj.groups);
-                groups.forEach(group => availableGroups.add(group));
-
-                if (!selectedGroup || groups.includes(selectedGroup)) {
-                    const subject = zaj.subject || "Nienazwane";
-                    if (!groupedBySubject[subject]) groupedBySubject[subject] = {};
-                    if (!groupedBySubject[subject][nauczyciel]) groupedBySubject[subject][nauczyciel] = {rooms: []};
-                    groupedBySubject[subject][nauczyciel].rooms.push(...zaj.rooms);
-                }
+                zaj.groups.forEach(groupString => {
+                    const major = extractMajor(groupString);
+                    availableMajors.add(major);
+                    if (selectedMajor === major) {
+                        const groups = getGroups([groupString]);
+                        groups.forEach(group => availableGroups.add(group));
+                        if (!selectedGroup || groups.includes(selectedGroup)) {
+                            const subject = zaj.subject || "Nienazwane";
+                            if (!groupedBySubject[subject]) groupedBySubject[subject] = {};
+                            if (!groupedBySubject[subject][nauczyciel]) groupedBySubject[subject][nauczyciel] = {rooms: []};
+                            groupedBySubject[subject][nauczyciel].rooms.push(...zaj.rooms);
+                        }
+                    }
+                });
             }
         });
     });
@@ -59,13 +60,28 @@ export const Classes = ({
                                     className={`bg-white text-black px-6 py-2 rounded-lg font-semibold transition-all duration-300 shadow-md hover:scale-105 hover:bg-gray-200 cursor-pointer ${selectedType === type ? "scale-110 !bg-custom-blue !text-white" : ""}`}
                                     onClick={() => {
                                         setSelectedType(type === selectedType ? null : type);
+                                        setSelectedMajor(null);
                                         setSelectedGroup(null);
                                     }}>
                                 {getStudyTypeLabel(type)}
                             </button>
                         ))}
                     </div>
-                    {selectedType && availableGroups.size > 0 && (
+                    {selectedType && availableMajors.size > 0 && (
+                        <div className="flex gap-4 mb-4">
+                            {[...availableMajors].map((major) => (
+                                <button key={major}
+                                        className={`bg-white text-black px-6 py-2 rounded-lg font-semibold transition-all duration-300 shadow-md hover:scale-105 cursor-pointer hover:bg-gray-200 ${selectedMajor === major ? "scale-110 !bg-custom-blue !text-white" : ""}`}
+                                        onClick={() => {
+                                            setSelectedMajor(major === selectedMajor ? null : major);
+                                            setSelectedGroup(null);
+                                        }}>
+                                    {major}
+                                </button>
+                            ))}
+                        </div>
+                    )}
+                    {selectedMajor && availableGroups.size > 0 && (
                         <div className="flex gap-4 mb-4">
                             {[...availableGroups].map((group) => (
                                 <button key={group}
@@ -76,7 +92,7 @@ export const Classes = ({
                             ))}
                         </div>
                     )}
-                    {selectedType && Object.keys(groupedBySubject).length > 0 ? (
+                    {selectedMajor && selectedType && Object.keys(groupedBySubject).length > 0 ? (
                         <div className="grid grid-cols-2 gap-6">
                             {Object.entries(groupedBySubject).map(([subject, teachers]) => (
                                 <div key={subject} className="bg-white text-black p-6 rounded-xl shadow-md w-80">
@@ -93,8 +109,8 @@ export const Classes = ({
                             ))}
                         </div>
                     ) : (
-                        selectedType &&
-                        <p className="text-center text-gray-500">Brak zajęć dla wybranego trybu lub grupy.</p>
+                        selectedMajor && selectedType &&
+                        <p className="text-center text-gray-500">Brak zajęć dla wybranego kierunku lub grupy.</p>
                     )}
                 </div>
             )}

@@ -18,14 +18,17 @@ export const MainContent = ({propSelectedWydzial, propData}: MainContentProps) =
     };
 
     const teachers = getTeachersByCatedral(selectedCatedral);
+    const showSidebar = faculty && teachers.length > 0; // Sprawdza, czy sidebar powinien być widoczny
 
     return (
-        <div className="relative w-4/5 p-5 overflow-x-hidden min-h-screen flex flex-row">
+        <div className="relative w-4/5 p-5 overflow-x-hidden min-h-screen flex flex-row justify-center">
             <div
                 className="absolute inset-0 bg-cover bg-center bg-no-repeat brightness-50 z-0"
                 style={{backgroundImage: "url('/bg.png')", backgroundAttachment: "fixed"}}
             ></div>
-            <div className="w-2/3 pr-5 relative z-10">
+
+            {/* Main Content */}
+            <div className={`${showSidebar ? "w-2/3" : "w-full"} pr-5 relative z-10`}>
                 <h1 className="text-center p-5 text-5xl text-white font-bold">Plany UBB</h1>
                 <div>
                     {faculty ? (
@@ -40,7 +43,9 @@ export const MainContent = ({propSelectedWydzial, propData}: MainContentProps) =
                                         propSelectedWydzial={propSelectedWydzial}
                                         propData={propData}
                                         isOpen={selectedCatedral === catedral}
-                                        onToggle={() => setSelectedCatedral(selectedCatedral === catedral ? null : catedral)}
+                                        onToggle={() =>
+                                            setSelectedCatedral(selectedCatedral === catedral ? null : catedral)
+                                        }
                                     />
                                 );
                             })
@@ -55,9 +60,13 @@ export const MainContent = ({propSelectedWydzial, propData}: MainContentProps) =
                     )}
                 </div>
             </div>
-            <div className="relative z-10 w-1/3">
-                <SideBarRight faculty={faculty} teachers={teachers}/>
-            </div>
+
+            {/* Sidebar Right - renderowany tylko jeśli jest potrzebny */}
+            {showSidebar && (
+                <div className="relative z-10 w-1/3 flex justify-end pr-3">
+                    <SideBarRight faculty={faculty} teachers={teachers}/>
+                </div>
+            )}
         </div>
     );
 };
