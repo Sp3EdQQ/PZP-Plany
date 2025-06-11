@@ -34,9 +34,5 @@ cd frontend
 npm install
 ```
 
-#### Uruchomienie frontendu
-```sh
-npm run dev
-```
-
-### 4. Korzystanie z aplikacji
+### Podgląd
+![image](https://github.com/user-attachments/assets/d3b2c6df-64a5-46bc-a8c7-d362202a976c)
